@@ -65,9 +65,9 @@ select {
 html,
 body {
   height: 100%;
-  overflow: hidden; /* remove scroll padrão */
-  scroll-snap-type: y mandatory; /* snap vertical */
-  overflow-y: scroll; /* ativa rolagem manual */
+  overflow: hidden; 
+  /* scroll-snap-type: y mandatory;  */
+  overflow-y: scroll; 
 }
 
 section {
@@ -145,9 +145,10 @@ h6 {
   font-size: 2.3rem;
 }
 
-/*-----------------Skills--------------*/
 
-.main-skills {
+/*---------Intro-------------*/
+
+.main-intro {
   position: relative;
   margin: auto;
   background-image: url(./Img/confetti-doodles.svg);
@@ -155,6 +156,18 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
+}
+
+/*-----------------Skills--------------*/
+
+.main-skills {
+  position: relative;
+  margin: auto;
+  background-image: url(./Img/scattered-forcefields.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #0a1128;
 }
 
 .main-skills-colums {
@@ -170,6 +183,14 @@ h6 {
   justify-content: center;
   gap: 3rem;
   transform: translate(-50%,-50%);
+}
+
+.main-skills p{
+  color: white;
+}
+
+.main-skills strong{
+  font-size: 1.2rem;
 }
 
 .skills-container {
@@ -211,7 +232,7 @@ h2 {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .dot.filled {
