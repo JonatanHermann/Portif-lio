@@ -349,6 +349,132 @@ h6 {
   flex: 1;
 }
 
+/*---------Projetos-------------*/
+.projetos {
+  position: relative;
+  margin: auto;
+  background-image: url(./Img/confetti-doodles.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projetos h2 {
+ padding-bottom: 50px;
+}
+
+.projetos i {
+  font-size: 2.5rem;
+}
+
+.projeto1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.info {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* .info h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #64e1ff;
+} */
+
+.info .sobre {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.tec-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* BOTÕES DAS TECNOLOGIAS COM SUAS CORES */
+.tecnologias .html {
+  background: #e34f26;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.tecnologias .css {
+  background: #1572b6;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.tecnologias .tailwind {
+  background: #38bdf8;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.tecnologias .ts {
+  background: #3178c6;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.tecnologias .react {
+  background: #61dafb;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #64e1ff;
+  border-radius: 5px;
+  color: #64e1ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn.github {
+  background: #24292e;
+  border: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #64e1ff;
+  color: #0b0f19;
+}
+
+.imagem img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 /*----------Contact------------*/
 
 .contact {
@@ -371,7 +497,7 @@ h6 {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  gap:2.5rem;
+  gap: 2.5rem;
 }
 
 .item {
