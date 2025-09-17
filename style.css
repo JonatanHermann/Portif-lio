@@ -152,7 +152,7 @@ h6 {
 .main-intro {
   position: relative;
   margin: auto;
-  background-image: url(./Img/confetti-doodles.svg);
+  background-image: url(./img/confetti-doodles.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ h6 {
 .main-skills {
   position: relative;
   margin: auto;
-  background-image: url(./Img/scattered-forcefields.svg);
+  background-image: url(./img/scattered-forcefields.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -355,7 +355,7 @@ h6 {
 .projetos {
   position: relative;
   margin: auto;
-  background-image: url(./Img/confetti-doodles.svg);
+  background-image: url(./img/confetti-doodles.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -467,7 +467,7 @@ h6 {
 .contact {
   position: relative;
   margin: auto;
-  background-image: url(./Img/scattered-forcefields.svg);
+  background-image: url(./img/scattered-forcefields.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
