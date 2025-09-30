@@ -181,8 +181,8 @@ h6 {
 }
 
 .about-photo img {
-  width: 250px;
-  height: 250px;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid white;
@@ -207,13 +207,29 @@ h6 {
   opacity: 1;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
 .about-content h2 {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   margin-bottom: 1rem;
   /* color: #dc143c; */
 }
 .about-content h3 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-bottom: 1rem;
   /* color: #dc143c; */
 }
@@ -316,7 +332,7 @@ h6 {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 1rem;
 }
 
@@ -368,10 +384,9 @@ h6 {
   /* padding: 4rem 2rem; */
 }
 
-
-
 .projetos h1 {
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 .projetos h2 {
   padding-bottom: 50px;
@@ -400,13 +415,13 @@ h6 {
   flex: 1;
   flex-direction: column;
   min-width: 300px;
-  gap: 10px;
+  gap: 1rem;
   background-color: #0a1128;
 }
 
 .imagem-projetos {
   position: relative;
-  width: 500px;
+  width: 31rem;
   border-radius: 150px;
   object-fit: cover;
   display: block;
@@ -539,4 +554,45 @@ h6 {
     padding: 1rem;
     font-size: 1rem;
   }
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .about-photo img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .intro-colums,
+  .main-skills-colums {
+    max-width: 370px;
+  }
+
+  .menu ul li a::after {
+    bottom: 0.7rem;
+  }
+
+  .projeto1 {
+    max-width: 370px;
+    max-height: 880px;
+  }
+
+  .contact-colum{
+    max-width: 370px;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+  
 }
